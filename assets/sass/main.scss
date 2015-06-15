@@ -98,3 +98,26 @@ header{
   background: #685493;
   box-shadow: 0 5px 11px -5px #222222;
 }
+.articles{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  //padding: 10px;
+  box-sizing: border-box;
+}
+.article{
+  width: 100%;
+  height: 50px;
+  color: #ffffff;
+  display: flex;
+  border: 2px solid lighten($content-background-color,5%);
+  background: lighten($content-background-color,7%);
+  margin: 10px;
+// TODO: Problem with .articles
+}
+.functions{
+  a{
+    color: $navigation-text-color;
+  }
+}
